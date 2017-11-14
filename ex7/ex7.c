@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 
     printf("You have %d bugs at an imaginary rate of %f.\n", bugs, bug_rate);
 
-    long universe_of_defects = 1L * 1024L * 1024L * 1024L;
+    long universe_of_defects = 555777321355677743L * 1024L * 1024L * 1024L;
     printf("The entire Universe has %ld bugs.\n",  universe_of_defects);
 
     double expected_bugs = bugs * bug_rate;
